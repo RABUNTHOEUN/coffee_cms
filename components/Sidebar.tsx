@@ -35,6 +35,10 @@ const Sidebar = () => {
             <Link href='/posts'>Posts</Link>
           </CommandItem>
           <CommandItem>
+            <User className='mr-2 h-4 w-4' />
+            <Link href='/users'>Users</Link>
+          </CommandItem>
+          <CommandItem>
             <Folders className='mr-2 h-4 w-4' />
             <Link href='categories'>Categories</Link>
           </CommandItem>
