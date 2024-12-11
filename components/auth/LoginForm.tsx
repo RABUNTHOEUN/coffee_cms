@@ -55,8 +55,8 @@ const LoginForm = () => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Login</CardTitle>
-        <CardDescription>
+        <CardTitle className="text-2xl font-bold text-gray-800 dark:text-white">Login</CardTitle>
+        <CardDescription className='text-sm text-gray-600 dark:text-gray-300'>
           Log into your account with your credentials
         </CardDescription>
       </CardHeader>
@@ -71,12 +71,12 @@ const LoginForm = () => {
               name='email'
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className='uppercase text-xs font-bold text-zinc-500 dark:text-white'>
+                  <FormLabel className='block text-sm font-semibold text-gray-700 dark:text-gray-300'>
                     Email
                   </FormLabel>
                   <FormControl>
                     <Input
-                      className='bg-slate-100 dark:bg-slate-500 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible: ring-offset-0'
+                      className='w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200'
                       placeholder='Enter Email'
                       {...field}
                     />
@@ -91,13 +91,13 @@ const LoginForm = () => {
               name='password'
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className='uppercase text-xs font-bold text-zinc-500 dark:text-white'>
+                  <FormLabel className='block text-sm font-semibold text-gray-700 dark:text-gray-300'>
                     Password
                   </FormLabel>
                   <FormControl>
                     <Input
                       type='password'
-                      className='bg-slate-100 dark:bg-slate-500 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible: ring-offset-0'
+                      className='w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200'
                       placeholder='Enter Password'
                       {...field}
                     />
