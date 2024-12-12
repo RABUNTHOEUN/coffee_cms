@@ -4,7 +4,7 @@ import RegisterForm from './RegisterForm';
 
 const AuthTabs = () => {
   return (
-    <Tabs defaultValue='login' className='w-[400px] border-2 rounded-md'>
+    <Tabs defaultValue='login' className='w-[400px] rounded-md'>
       <TabsList className='grid w-full grid-cols-2'>
         <TabsTrigger value='login'>Login</TabsTrigger>
         <TabsTrigger value='register'>Register</TabsTrigger>
