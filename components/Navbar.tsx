@@ -14,9 +14,9 @@ import ThemeToggler from '@/components/ThemeToggler';
 
 const Navbar = () => {
   return (
-    <div className='bg-gray-700 dark:bg-slate-700 text-white py-2 px-5 flex justify-between'>
+    <div className=' bg-gray-700 dark:bg-slate-700 text-white py-4 px-4 flex justify-between'>
       <Link href='/'>
-        <Image src={logo} alt='TraversyPress' width={40} />
+        <p className='font-semibold text-3xl uppercase'>Coffee CMS</p>
       </Link>
 
       <div className='flex items-center'>
